@@ -7,7 +7,7 @@ contract Thu {
     string public msg;
 
     constructor(string memory message) {
-        msg = message
+        msg = message;
     }
 
     function print3() public view returns (string memory) {
